@@ -11,4 +11,9 @@ public class test {
         return "Endet nachu";
     }
 
+    @RequestMapping("/farewell")
+    public String test1(){
+        return "Dena derulign ke ashena balebetu";
+    }
+
 }
